@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		810A43401BF5908C004E20F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 810A433F1BF5908C004E20F9 /* main.m */; };
+		810A43431BF5908C004E20F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 810A43421BF5908C004E20F9 /* AppDelegate.m */; };
+		810A43461BF5908C004E20F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810A43451BF5908C004E20F9 /* ViewController.m */; };
+		810A43491BF5908C004E20F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810A43471BF5908C004E20F9 /* Main.storyboard */; };
+		810A434B1BF5908D004E20F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810A434A1BF5908D004E20F9 /* Assets.xcassets */; };
+		810A434E1BF5908D004E20F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810A434C1BF5908D004E20F9 /* LaunchScreen.storyboard */; };
+		810A43591BF5908D004E20F9 /* CustomMjRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 810A43581BF5908D004E20F9 /* CustomMjRefreshTests.m */; };
+		810A43641BF5908D004E20F9 /* CustomMjRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 810A43631BF5908D004E20F9 /* CustomMjRefreshUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		810A43551BF5908D004E20F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 810A43331BF5908C004E20F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810A433A1BF5908C004E20F9;
+			remoteInfo = CustomMjRefresh;
+		};
+		810A43601BF5908D004E20F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 810A43331BF5908C004E20F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810A433A1BF5908C004E20F9;
+			remoteInfo = CustomMjRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		810A433B1BF5908C004E20F9 /* CustomMjRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomMjRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		810A433F1BF5908C004E20F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		810A43411BF5908C004E20F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		810A43421BF5908C004E20F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		810A43441BF5908C004E20F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		810A43451BF5908C004E20F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		810A43481BF5908C004E20F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		810A434A1BF5908D004E20F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		810A434D1BF5908D004E20F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		810A434F1BF5908D004E20F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810A43541BF5908D004E20F9 /* CustomMjRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomMjRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		810A43581BF5908D004E20F9 /* CustomMjRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomMjRefreshTests.m; sourceTree = "<group>"; };
+		810A435A1BF5908D004E20F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810A435F1BF5908D004E20F9 /* CustomMjRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomMjRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		810A43631BF5908D004E20F9 /* CustomMjRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomMjRefreshUITests.m; sourceTree = "<group>"; };
+		810A43651BF5908D004E20F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		810A43381BF5908C004E20F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810A43511BF5908D004E20F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810A435C1BF5908D004E20F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		810A43321BF5908C004E20F9 = {
+			isa = PBXGroup;
+			children = (
+				810A433D1BF5908C004E20F9 /* CustomMjRefresh */,
+				810A43571BF5908D004E20F9 /* CustomMjRefreshTests */,
+				810A43621BF5908D004E20F9 /* CustomMjRefreshUITests */,
+				810A433C1BF5908C004E20F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		810A433C1BF5908C004E20F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				810A433B1BF5908C004E20F9 /* CustomMjRefresh.app */,
+				810A43541BF5908D004E20F9 /* CustomMjRefreshTests.xctest */,
+				810A435F1BF5908D004E20F9 /* CustomMjRefreshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		810A433D1BF5908C004E20F9 /* CustomMjRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				810A43411BF5908C004E20F9 /* AppDelegate.h */,
+				810A43421BF5908C004E20F9 /* AppDelegate.m */,
+				810A43441BF5908C004E20F9 /* ViewController.h */,
+				810A43451BF5908C004E20F9 /* ViewController.m */,
+				810A43471BF5908C004E20F9 /* Main.storyboard */,
+				810A434A1BF5908D004E20F9 /* Assets.xcassets */,
+				810A434C1BF5908D004E20F9 /* LaunchScreen.storyboard */,
+				810A434F1BF5908D004E20F9 /* Info.plist */,
+				810A433E1BF5908C004E20F9 /* Supporting Files */,
+			);
+			path = CustomMjRefresh;
+			sourceTree = "<group>";
+		};
+		810A433E1BF5908C004E20F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				810A433F1BF5908C004E20F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		810A43571BF5908D004E20F9 /* CustomMjRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				810A43581BF5908D004E20F9 /* CustomMjRefreshTests.m */,
+				810A435A1BF5908D004E20F9 /* Info.plist */,
+			);
+			path = CustomMjRefreshTests;
+			sourceTree = "<group>";
+		};
+		810A43621BF5908D004E20F9 /* CustomMjRefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				810A43631BF5908D004E20F9 /* CustomMjRefreshUITests.m */,
+				810A43651BF5908D004E20F9 /* Info.plist */,
+			);
+			path = CustomMjRefreshUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		810A433A1BF5908C004E20F9 /* CustomMjRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810A43681BF5908D004E20F9 /* Build configuration list for PBXNativeTarget "CustomMjRefresh" */;
+			buildPhases = (
+				810A43371BF5908C004E20F9 /* Sources */,
+				810A43381BF5908C004E20F9 /* Frameworks */,
+				810A43391BF5908C004E20F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomMjRefresh;
+			productName = CustomMjRefresh;
+			productReference = 810A433B1BF5908C004E20F9 /* CustomMjRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		810A43531BF5908D004E20F9 /* CustomMjRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810A436B1BF5908D004E20F9 /* Build configuration list for PBXNativeTarget "CustomMjRefreshTests" */;
+			buildPhases = (
+				810A43501BF5908D004E20F9 /* Sources */,
+				810A43511BF5908D004E20F9 /* Frameworks */,
+				810A43521BF5908D004E20F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810A43561BF5908D004E20F9 /* PBXTargetDependency */,
+			);
+			name = CustomMjRefreshTests;
+			productName = CustomMjRefreshTests;
+			productReference = 810A43541BF5908D004E20F9 /* CustomMjRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		810A435E1BF5908D004E20F9 /* CustomMjRefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810A436E1BF5908D004E20F9 /* Build configuration list for PBXNativeTarget "CustomMjRefreshUITests" */;
+			buildPhases = (
+				810A435B1BF5908D004E20F9 /* Sources */,
+				810A435C1BF5908D004E20F9 /* Frameworks */,
+				810A435D1BF5908D004E20F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810A43611BF5908D004E20F9 /* PBXTargetDependency */,
+			);
+			name = CustomMjRefreshUITests;
+			productName = CustomMjRefreshUITests;
+			productReference = 810A435F1BF5908D004E20F9 /* CustomMjRefreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		810A43331BF5908C004E20F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "铁哥";
+				TargetAttributes = {
+					810A433A1BF5908C004E20F9 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = S37582G6XF;
+					};
+					810A43531BF5908D004E20F9 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = S37582G6XF;
+						TestTargetID = 810A433A1BF5908C004E20F9;
+					};
+					810A435E1BF5908D004E20F9 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = S37582G6XF;
+						TestTargetID = 810A433A1BF5908C004E20F9;
+					};
+				};
+			};
+			buildConfigurationList = 810A43361BF5908C004E20F9 /* Build configuration list for PBXProject "CustomMjRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 810A43321BF5908C004E20F9;
+			productRefGroup = 810A433C1BF5908C004E20F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				810A433A1BF5908C004E20F9 /* CustomMjRefresh */,
+				810A43531BF5908D004E20F9 /* CustomMjRefreshTests */,
+				810A435E1BF5908D004E20F9 /* CustomMjRefreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		810A43391BF5908C004E20F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810A434E1BF5908D004E20F9 /* LaunchScreen.storyboard in Resources */,
+				810A434B1BF5908D004E20F9 /* Assets.xcassets in Resources */,
+				810A43491BF5908C004E20F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810A43521BF5908D004E20F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810A435D1BF5908D004E20F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		810A43371BF5908C004E20F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810A43461BF5908C004E20F9 /* ViewController.m in Sources */,
+				810A43431BF5908C004E20F9 /* AppDelegate.m in Sources */,
+				810A43401BF5908C004E20F9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810A43501BF5908D004E20F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810A43591BF5908D004E20F9 /* CustomMjRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810A435B1BF5908D004E20F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810A43641BF5908D004E20F9 /* CustomMjRefreshUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		810A43561BF5908D004E20F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810A433A1BF5908C004E20F9 /* CustomMjRefresh */;
+			targetProxy = 810A43551BF5908D004E20F9 /* PBXContainerItemProxy */;
+		};
+		810A43611BF5908D004E20F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810A433A1BF5908C004E20F9 /* CustomMjRefresh */;
+			targetProxy = 810A43601BF5908D004E20F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		810A43471BF5908C004E20F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				810A43481BF5908C004E20F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		810A434C1BF5908D004E20F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				810A434D1BF5908D004E20F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		810A43661BF5908D004E20F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		810A43671BF5908D004E20F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		810A43691BF5908D004E20F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomMjRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.CustomMjRefresh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		810A436A1BF5908D004E20F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomMjRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.CustomMjRefresh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		810A436C1BF5908D004E20F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomMjRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.CustomMjRefreshTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomMjRefresh.app/CustomMjRefresh";
+			};
+			name = Debug;
+		};
+		810A436D1BF5908D004E20F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomMjRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.CustomMjRefreshTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomMjRefresh.app/CustomMjRefresh";
+			};
+			name = Release;
+		};
+		810A436F1BF5908D004E20F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomMjRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.CustomMjRefreshUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomMjRefresh;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		810A43701BF5908D004E20F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomMjRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.CustomMjRefreshUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomMjRefresh;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		810A43361BF5908C004E20F9 /* Build configuration list for PBXProject "CustomMjRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810A43661BF5908D004E20F9 /* Debug */,
+				810A43671BF5908D004E20F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810A43681BF5908D004E20F9 /* Build configuration list for PBXNativeTarget "CustomMjRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810A43691BF5908D004E20F9 /* Debug */,
+				810A436A1BF5908D004E20F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		810A436B1BF5908D004E20F9 /* Build configuration list for PBXNativeTarget "CustomMjRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810A436C1BF5908D004E20F9 /* Debug */,
+				810A436D1BF5908D004E20F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		810A436E1BF5908D004E20F9 /* Build configuration list for PBXNativeTarget "CustomMjRefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810A436F1BF5908D004E20F9 /* Debug */,
+				810A43701BF5908D004E20F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 810A43331BF5908C004E20F9 /* Project object */;
+}
